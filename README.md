@@ -1,4 +1,4 @@
-# TrackYourself
+# LemonadeStand
 
 ## What Is it?
 A full stack mock ebay application where users can upload lemonades they want to sell and browse/buy lemonades posted by other users.
@@ -67,8 +67,6 @@ The data will then be sent to the front end and displayed with all this informat
 You can simply browse through our site through our various postings and when you press buy it will take you to a payment page.
 
 We have also included a searchbar to look for any specific lemonde you might be interested in.
-
-#### You must enter all information in order for new train information to be inputted to firebase.
 
 ## Under the hood
 The application has front end, back end, and database components. 
