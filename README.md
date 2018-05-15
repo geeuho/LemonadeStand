@@ -29,19 +29,26 @@ $ node server.js
 
 Open a web browser and enter the url "localhost:8080", and the page will be available. 
 
+You also will need MySQL downloaded to work with our application.
+
 ## How Does it Work?
+
+### Posting Lemonade
 
 When you are on the front page, you can create a user entering these requested inputs into the create user section.
 
 These are:
 
+Email 
+
+Username
+
+The database will recognize each unique entry based on a seller id, which is a primary key (a number) on the MySQL database.
 
 
-Once you are on the shop page, you can create a new lemonade entry by entering these requested input boxes.
+Once you are signed in and on the shop page, you can create a new lemonade entry by entering these requested input boxes.
 
 These are:
-
-Email
 
 Product Name
 
@@ -54,6 +61,12 @@ URL(for picture of your product)
 
 This will then update the MySQL database with one "lemonades" entry that corresponds to your seller id.
 The data will then be sent to the front end and displayed with all this information.
+
+### Buying Lemonades
+
+You can simply browse through our site through our various postings and when you press buy it will take you to a payment page.
+
+We have also included a searchbar to look for any specific lemonde you might be interested in.
 
 #### You must enter all information in order for new train information to be inputted to firebase.
 
