@@ -25,5 +25,6 @@
     "method-override": "^2.3.10",
     "mysql": "^2.15.0",
     "nightmare": "^3.0.0"
-  }
+  },
+  "keywords": []
 }
